@@ -8,8 +8,8 @@
     <script type="text/javascript">
     
         $(document).ready(function(){
-            var client_id = 'ff91d1509c6546d7b65ca696ee4dabb3';//instagram developer console da yapılan uygulama idsi.
-            var uri = 'http://localhost/projeler/ins/index.php';//instagram developer console da verdiginiz redirect uri localde de calısır.       
+            var client_id = '';//instagram developer console da yapılan uygulama idsi.
+            var uri = '';//instagram developer console da verdiginiz redirect uri localde de calısır.       
             
             if(!window.location.hash.match('access')){
                 $('#token').html('<a href="https://www.instagram.com/oauth/authorize/?client_id='+client_id+'&redirect_uri='+uri+'&response_type=token&scope=public_content">Token</a>');
